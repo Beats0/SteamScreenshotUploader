@@ -1,0 +1,18 @@
+{
+  "name": "steamscreenshotuploader",
+  "productName": "SteamScreenshotUploader",
+  "version": "1.0.0",
+  "description": "steam screenshot uploader",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Beats0",
+    "email": "Beats01998@gmail.com",
+    "url": "https://github.com/Beats0"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
